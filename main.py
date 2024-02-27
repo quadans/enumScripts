@@ -8,8 +8,20 @@ import keyboard # keylogger
 from scapy.all import *   # arp network scan
 
 # Intro
-ascii_banner = pyfiglet.figlet_format("Werkzeug")
+ascii_banner = pyfiglet.figlet_format("Werkzeuge")
 print(ascii_banner)
+
+print("\n")
+
+print("Press number to select option:\n")
+print("1. Subdomain enumeration\n")
+print("2. Directory enumeration\n")
+print("3. Local network enumeration\n")
+print("4. Port scanner\n")
+print("5. Download files\n")
+print("6. Hash cracker\n")
+print("7. keylogger")
+
 
 # subdomains check
 sub_list = open("subdomains.txt").read() 
